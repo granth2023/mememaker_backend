@@ -20,8 +20,7 @@ export const createMemesJSON = async () => {
       console.log('responseData',      responseData)
   
       const seedData = responseData.map((object) => ({
-        id: object.id,
-        name: object.name.common,
+        name: object.name,
         url: object.url,
         width: object.width,
         height: object.height,
@@ -58,4 +57,4 @@ export const createMemesJSON = async () => {
     }
   };
 
-  submissionsData();
+  // submissionsData();

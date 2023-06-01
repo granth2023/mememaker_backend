@@ -1,7 +1,6 @@
 import mongoose from 'mongoose'
 
 const memeSchema = new mongoose.Schema({
-      id: String,
       name: String,
       url: String,
       width: String,
