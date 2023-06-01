@@ -128,3 +128,8 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# ADD YOUR ENV AND NODE MODULES 
+.env
+
+/node_modules
