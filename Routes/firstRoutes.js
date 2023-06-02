@@ -13,6 +13,7 @@ router.get('/submissions/:id', getSubmissionById);
 
 //need post route for second model 
 router.post('/memes', createMeme);
+//front end: do a post request with axios, has to hit /submissions endpoint, include within request body, components of model and then a form where it is filled out and post request with that in there and takes those values and does that. --how to generate image? serach ideas for overlay, have references. 
 router.post('/submissions', createSubmission);
 
 //need put route for second model 
